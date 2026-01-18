@@ -78,6 +78,22 @@
 
     </dependencies>
 
+
+    <distributionManagement>
+	
+	    <repository>
+	      <id>nexus</id>
+	      <name>KK FUNDA Releases Nexus Repository</name>
+	      <url>http://13.235.17.196:8090/repository/jio-release-repo/</url>
+	    </repository>
+	    
+	    <snapshotRepository>
+	      <id>nexus</id>
+	      <name>KK FUNDA Snapshot Nexus Repository </name>
+	      <url>http://13.235.17.196:8090/repository/jio-snapshot-repo/</url>
+	    </snapshotRepository>
+	    
+	</distributionManagement>
     <build>
         <finalName>maven-web-application</finalName>
 
